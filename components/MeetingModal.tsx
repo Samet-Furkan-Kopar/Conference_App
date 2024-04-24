@@ -9,18 +9,20 @@ import {
 } from "@/components/ui/dialog";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 
 interface MeetingModalProps {
     isOpen: boolean;
     onClose: () => void;
     title: string;
     className?: string;
-    buttonText?: string;
-    handleClick: () => void;
     children?: React.ReactNode;
-    image: string;
-    buttonIcon: string;
+    handleClick?: () => void;
+    buttonText?: string;
+    instantMeeting?: boolean;
+    image?: string;
+    buttonClassName?: string;
+    buttonIcon?: string;
 }
 const MeetingModal = ({
     isOpen,

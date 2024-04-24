@@ -1,7 +1,7 @@
 "use client";
 import { DeviceSettings, VideoPreview, useCall } from "@stream-io/video-react-sdk";
 import React, { useEffect, useState } from "react";
-import { Button } from "./button";
+import { Button } from "./ui/button";
 
 const MeetingSetup = ({setIsSetupComplete}:{setIsSetupComplete: (value: boolean) => void}) => {
     const [isMicCamToggledOn, setIsMicCamToggledOn] = useState(false);

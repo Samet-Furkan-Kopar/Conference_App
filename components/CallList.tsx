@@ -11,10 +11,10 @@ interface CallListProps {
     type: "ended" | "upcoming" | "recordings";
 }
 
-const CallList = ({ type }: CallListProps) => {
+const CallList = ({ type }: {type: 'ended' | 'upcoming' | 'recordings'}) => {
     const [recordings, setRecordings] = useState<CallRecording[]>([]);
     const { endedCalls, upcomingCalls, callRecordings, isLoading } = useGetCalls();
-
+    
     const { toast } = useToast()
     const router = useRouter();
 
@@ -93,6 +93,8 @@ const CallList = ({ type }: CallListProps) => {
     if (isLoading) return <Loader />;
 
     const calls = getCalls();
+    console.log(calls,"wwwwwww");
+    
     const noCallsMessage = getNoCallsMessage();
 
 

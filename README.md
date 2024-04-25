@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Conference-App
 
-## Getting Started
+This Project is a conference application developed using Nextjs 14 and Typscript.
 
-First, run the development server:
+## Technologies Used:
+- Nextjs
+- Tailwind CSS
+- Typescript
+- Shadcn/ui
+- Clerk
+- Stream-io
+ 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Getting Started:
+To get started with the project, follow these steps:
+1. Install project dependencies by running: npm i
+2. Start the project by running: npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots:
+Below are screenshots of different screens within the project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div style="display:flex; justify-content: space-between; flex-wrap: wrap;">
+    <img src="./public/images/home.png" alt="Screenshot 1" width="45%">
+    <img src="./public/images/createMeeting.png" alt="Screenshot 2" width="45%">
+    <img src="./public/images/conference.png" alt="Screenshot 3" width="45%">
+    <img src="./public/images/recordings.png" alt="Screenshot 4" width="45%">
+    <img src="./public/images/upcoming.png" alt="Screenshot 5" width="45%">
+    <img src="./public/images/previous.png" alt="Screenshot 6" width="45%">
+    <img src="./public/images/login.png" alt="Screenshot 7" width="45%">
+</div>
